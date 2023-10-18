@@ -1,5 +1,5 @@
 # HDL_CuartoSemestre_e-commerce 
-Proyecto final, pagina de ventas
+Proyecto final, pagina de ventas.
 
 <div id="header" align="center">
 	<img src= "https://media.giphy.com/media/uZ9RBzAb4FfcNfd8SL/giphy.gif" width="600"/>
