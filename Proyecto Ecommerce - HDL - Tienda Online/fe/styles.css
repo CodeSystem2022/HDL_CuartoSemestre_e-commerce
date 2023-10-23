@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    background-color: rgb(54, 54, 51);
+    font-family: 'Graduate', serif;
+    
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav {
+    background-color: #ebe045;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+}
+
+.page-nav h1 {
+    background-color: #ebe045;
+    margin: 20px;
+}
+
+.page-nav h2 {
+    background-color: #ebe045;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; /* Blue */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    border-radius: 20px;
+    margin: 10px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.product-container h3 {
+    text-align: center;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #ebe045; /* Green */
+    color: white;
+}
+
+.button-add.disabled {
+    background-color: white;
+    color: black;
+    border: 2px solid #9e9e9e; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add.disabled:hover {
+    background-color: #9e9e9e; 
+    color: white;
+}
+
+.order {
+    min-width: 75%;
+    display: none;
+}
+
+.order-table {
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.order-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.order-actions p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order-actions p:hover {
+    cursor: pointer;
+}
+
+.order-shipping {
+    font-size: large;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.order-shipping .form-group {
+    padding-bottom: 5px;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #9e9e9e;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+</head>
+<body>
+    <div class="page-nav">
+        <h1>HDLMODA</h1>
+        <h2>Rebaja del 25% en todo, usando NARANJA al pagar</h2>
+
+        <button id="checkout" class="button-checkout" onclick="showOrder()">Carrito</button>
+    </div>
+    <div id="page-content" class="page-content">
+        
+        <div id="product-cards" class="product-cards"></div>
+
+
+        <div id="order" class="order">
+            <h1>Orden:</h1>
+            <h2 id="order-total">Total: $150</h2>
+            <table id="order-table" class="order-table">
+                <tr>
+                  <th>Cantidad</th>
+                  <th>Detalle</th>
+                  <th>Subtotal</th>
+                </tr>
+            </table>
+            <div id="order-actions" class="order-actions">
+                <p onclick="displayProducts()"><< volver</p>
+                <p onclick="pay()">confirmar >></p>
+            </div>
+        </div>
+    </div>
+</body>
