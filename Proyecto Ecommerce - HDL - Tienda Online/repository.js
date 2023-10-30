@@ -12,7 +12,10 @@ async function read() {
     spreadsheetId: "1f5xKiWj-p5XbK47-3tlxfOvZ4lOk9xDEZJptpiTOfdw",
     range: "Products!A2:E",
   });
-
+  
+/*
+*/
+  
   const rows = response.data.values;
   const products = rows.map((row) => ({
     id: +row[0],
