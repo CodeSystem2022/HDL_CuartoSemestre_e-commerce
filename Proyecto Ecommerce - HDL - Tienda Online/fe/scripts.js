@@ -10,8 +10,6 @@ function add(productId, price) {
     product.stock--;
 
     order.items.push(productList.find(p => p.id === productId));
-    
-
     console.log(productId, price);
     carrito.push(productId);
     total = total + price;
