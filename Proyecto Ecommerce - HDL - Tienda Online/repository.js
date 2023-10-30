@@ -6,7 +6,6 @@ const auth = new google.auth.GoogleAuth({
 });
 
 const sheets = google.sheets({ version: "v4", auth: auth });
-
 async function read() {
   const response = await sheets.spreadsheets.values.get({
     spreadsheetId: "1f5xKiWj-p5XbK47-3tlxfOvZ4lOk9xDEZJptpiTOfdw",
