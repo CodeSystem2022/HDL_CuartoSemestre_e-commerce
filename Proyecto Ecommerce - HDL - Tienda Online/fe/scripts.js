@@ -1,4 +1,3 @@
-
 let productList = [];
 let carrito = [];
 let total = 0;
