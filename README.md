@@ -9,15 +9,22 @@ Proyecto final, pagina de ventas.
 
 <div align="center">
 	<h2>-Tecnologias utilizadas-</h2>
-	<br>
-	<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" title="JavaScrip" alt="JS" width="40" height="40">&nbsp;
   <br>
-	<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" title="Html" alt="Html" width="40" height="40">&nbsp;
+	<img alt="Static Badge" src="https://img.shields.io/badge/JS-%23000000?style=for-the-badge&logo=javascript">
   <br>
-	<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain.svg" title="Css" alt="Css" width="40" height="40">&nbsp;
+	<img alt="Static Badge" src="https://img.shields.io/badge/HTML-%23000000?style=for-the-badge&logo=html5">
   <br>
-  </div>
-  
+	<img alt="Static Badge" src="https://img.shields.io/badge/CSS-%23000000?style=for-the-badge&logo=css3">
+  <br>
+	<img alt="Static Badge" src="https://img.shields.io/badge/Node-%23000000?style=for-the-badge&logo=nodedotjs">
+  <br>
+  	<img alt="Static Badge" src="https://img.shields.io/badge/Mercado%20Pago-%23000000?style=for-the-badge&logo=mercadopago">
+  <br>
+  	<img alt="Static Badge" src="https://img.shields.io/badge/GOOGLE%20SHEETS-%23000000?style=for-the-badge&logo=googlesheets">
+  <br>
+  	<img alt="Static Badge" src="https://img.shields.io/badge/EXPRESS-%23000000?style=for-the-badge&logo=express">
+  <br>
+
 
 ## Google Sheets:
 
