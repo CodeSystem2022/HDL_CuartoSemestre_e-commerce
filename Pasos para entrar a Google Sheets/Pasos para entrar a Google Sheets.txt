@@ -6,8 +6,6 @@ Guía de inicio rápido de Node.jS
 
 Las guías de inicio rápido de Google Workspace usan las bibliotecas cliente de la API para manejar algunos detalles del flujo de autenticación y autorización. Te recomendamos que uses las bibliotecas cliente para tus propias apps. En esta guía de inicio rápido, se usa un enfoque de autenticación simplificado apropiado para un entorno de pruebas. En el caso de un entorno de producción, te recomendamos obtener información sobre la autenticación y la autorización antes de elegir las credenciales de acceso adecuadas para la app.
 
-Crear una aplicación de línea de comandos de Node.js que realice solicitudes a la API de Hojas de cálculo de Google
-
 Para ejecutar esta guía de inicio rápido, necesitas los siguientes requisitos previos:
 
 Se instalaron Node.js y npm.
@@ -66,3 +64,5 @@ Tu aplicación de Nodejs ejecuta y llama a la API de Hojas de cálculo de Google
 LAS CREDENCIALES Y TOKEN ESTAN OCULTA POR TEMAS DE SEGURIDAD DE GOOGLE
 
 La información de autorización se almacena en el sistema de archivos, por lo que la próxima vez que ejecutes el código de muestra, no se te solicitará autorización.
+
+https://developers.google.com/sheets/api/quickstart/nodejs?hl=es-419
