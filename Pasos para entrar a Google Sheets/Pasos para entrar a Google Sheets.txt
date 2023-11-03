@@ -1,5 +1,8 @@
-Guía de inicio rápido de Node.js
 
+EXPLICACION DE COMO CREAR SUS TOKEN Y CREDENCIALES CON GOOGLE SHEETS
+
+
+Guía de inicio rápido de Node.jS
 
 Las guías de inicio rápido de Google Workspace usan las bibliotecas cliente de la API para manejar algunos detalles del flujo de autenticación y autorización. Te recomendamos que uses las bibliotecas cliente para tus propias apps. En esta guía de inicio rápido, se usa un enfoque de autenticación simplificado apropiado para un entorno de pruebas. En el caso de un entorno de producción, te recomendamos obtener información sobre la autenticación y la autorización antes de elegir las credenciales de acceso adecuadas para la app.
 
