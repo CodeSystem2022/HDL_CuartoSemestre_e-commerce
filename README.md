@@ -1,5 +1,7 @@
 # HDL_CuartoSemestre_e-commerce 
-Proyecto final, pagina de ventas.
+Proyecto final - Tienda de Ropa.
+
+Proyecto de uan tienda web especializada en la venta de ropa. Esta plataforma proporcionará a los usuarios una experiencia interactiva y atractiva para explorar y adquirir una amplia variedad de ropa.
 
 <div id="header" align="center">
 	<img src= "https://media.giphy.com/media/uZ9RBzAb4FfcNfd8SL/giphy.gif" width="600"/>
